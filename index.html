@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="unitInput">
+                <h1 class="unitHeader">Metric/Imperial Unit Conversion</h1>
+                <input id="numInput" type="text" oninput="meterToFeet(this.value); literToGallon(this.value); kiloToPound(this.value)" value="1">
+            </div>
+            <div id="conversion">
+                <div id="lengthUnit">
+                    <h2 class="h2Length">Length (Meter/Feet)</h2>
+                    <p id="lengthConversion"></p>
+                </div>
+                <div id="volumeUnit">
+                    <h2 class="h2Volume">Volume (Liters/Gallons)</h2>
+                    <p id="volumeConversion"></p>
+                </div>
+                <div id="massUnit">
+                    <h2 class="h2Mass">Mass (Kilograms/Pounds)</h2>
+                    <p id="massConversion"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

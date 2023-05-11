@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #013754;
+}
+
+#container{
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#unitInput {
+    width: 550px;
+    height: 285px;
+    background: #0ea5e9;
+}
+
+#numInput{
+    /* width: 300px; */
+    height: 83px; 
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bold
+}
+
+#conversion{
+    width: 550px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #0c4a6e;
+    color: #7dd3fc;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#lengthUnit,
+#volumeUnit,
+#massUnit{
+    width: 500px;
+    height: 109px;
+    border-radius: 5px;
+    background: #0369a1;
+}
+
+.h2Length,
+.h2Volume,
+.h2Mass{
+    padding-top: 0px
+}
